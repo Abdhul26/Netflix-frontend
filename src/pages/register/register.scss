@@ -1,0 +1,75 @@
+.register {
+   width: 100vw;
+   height: 100vh;
+   background: url("https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bmV0ZmxpeHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+   object-fit: cover;
+   position: relative;
+
+   .top {
+      .wrapper {
+         padding: 20px 50px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+
+         .logo {
+            margin-left: 10px;
+            height: 50px;
+         }
+
+         .login {
+            background-color: red;
+            color: white;
+            border-radius: 5px;
+            border: none;
+            font-weight: 500;
+            font-size: 20px;
+         }
+      }
+
+
+   }
+
+   .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      position: absolute;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: aliceblue;
+      padding: 10px;
+      margin-bottom: 20px;
+
+      .input {
+         width: 50%;
+         justify-content: space-between;
+         align-items: center;
+         display: flex;
+         height: 50px;
+         background-color: white;
+         border-radius: 10px;
+
+         input {
+            height: 100%;
+            border: none;
+            flex: 9
+         }
+
+         .started {
+            flex: 3;
+            height: 100%;
+            background-color: red;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+
+         }
+
+
+
+      }
+   }
+
+}
